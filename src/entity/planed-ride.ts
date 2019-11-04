@@ -10,7 +10,7 @@ export class PlanedRide {
   duration: number;
 
 
-  constructor(organizer: User) {
-    this.organizer = organizer;
+  constructor(user: User) {
+    this.organizer = user;
   }
 }

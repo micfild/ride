@@ -13,7 +13,7 @@ export class User {
   description: string;
 
 
-  constructor(bikeType: BikeType) {
-    this.bikeType = bikeType;
+  constructor() {
+    this.bikeType = new BikeType();
   }
 }
